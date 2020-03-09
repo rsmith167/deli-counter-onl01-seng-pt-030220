@@ -5,7 +5,7 @@ katz_deli = [] # daily deli counter
 def line(arrayKatz_deli)
   
   if arrayKatz_deli.size > 0 
-    puts "Your place in line is "
+    puts "Your place in line is #{arrayKatz_deli.size}"
   else
     puts "The line is currently empty."
   
