@@ -10,3 +10,9 @@ def line(arrayKatz_deli)
     puts "The line is currently empty."
   
 end
+
+def take_a_number(katz_deli, your_name)
+  
+  puts "#{your_name} #{katz_deli.size + 1}"
+  
+end
