@@ -9,7 +9,7 @@ def line(katz_deli)
      report_array << "#{katz_deli.index(name)}. #{name}"
    end
    report_array = report_array.join(" ")
-   return puts report_array
+    puts report_array
   else
     puts "The line is currently empty."
   end
