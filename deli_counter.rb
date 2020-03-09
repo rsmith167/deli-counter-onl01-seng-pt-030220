@@ -6,9 +6,9 @@ def line(katz_deli)
   report_array = ["The line is currently:"]
   if katz_deli.size > 0 
     katz_deli.each do |name|
-     report_array << "#{katz_deli.index(name)}. #{name}"
+     report_array << "#{katz_deli.index(name)+1}. #{name}"
    end
-    report_array.join(" ")
+   report_array = report_array.join(" ")
   else
     puts "The line is currently empty."
   end
